@@ -1,37 +1,27 @@
-# Dependency directories
-node_modules/
-backend/node_modules/
-frontend/node_modules/
-
-# Environment files
+# Environment and Local Configs
 .env
 *.env
-backend/.env
-frontend/.env
 *.env.local
 
-# Production builds
-dist/
-backend/dist/
-frontend/dist/
-
-# Log files and proctoring
+# Log and Temp files
 *.log
-backend/*.log
-backend/uploads/
-backend/proctoring/
+logs/
+tmp/
+temp/
 
-# Editor/OS temporary files
+# Proctoring and Uploads
+uploads/
+
+# Editor and OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+*.bak
+*.swp
 
-# Python
+# Python Models
 venv/
 Model/venv/
-Model/Model/venv/
 __pycache__/
 *.pyc
-
-
